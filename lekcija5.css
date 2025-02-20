@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    font-family: monospace;
+}
+
+.container {
+    background-color: salmon;
+    background-color: rgb(10, 90, 90);
+    size: 100%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+
+.Login {
+    background-color: #ffffff;
+    background-color: rgb(10, 90, 90);
+
+    border-radius: 70px;
+
+    height: 320px;
+    width: 320px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
+
+input {
+    padding: 2px;
+    margin-bottom: 12px;
+    height: 50px;
+    width: 300px;
+
+    box-sizing: border-box;
+    padding-left: 10px;
+
+    background-color: rgb(19, 143, 143);
+    border-radius: 10px;
+    border-style: dotted;
+    color: white;
+    
+}
+
+.type {
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: turquoise;
+}
+
+a {
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:rgb(19, 143, 143);
+}
+
+
+.container2 {
+    background-color: salmon;
+    background-color: rgb(10, 90, 90);
+    size: 100%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
